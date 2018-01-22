@@ -6,7 +6,8 @@ function [mu, saved] = eigTMNc(model, par, s, h, M, N, varargin)
 %   mu = eigTMNc(model, par, s, h, M, N)
 %
 %   model: function handle that defines the equations (see the
-%          "model_*.m" files for example model definitions);
+%          template model definition file "modelc.m", and the
+%          "modelc_*.m" files for example model definitions);
 %          will be called as model(par)
 %   par: model parameters
 %   M, N: discretization indices
